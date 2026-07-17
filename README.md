@@ -1,28 +1,25 @@
-# 📰 ChayaChando
+# 🛠️ ChayaChando Admin Panel
 
-ChayaChando is a modern news, media, and journalism platform designed to deliver the latest national and international news in a fast, responsive, and user-friendly interface. The platform allows readers to explore trending stories, breaking news, entertainment, sports, technology, politics, and more.
+The **ChayaChando Admin Panel** is a modern dashboard built to efficiently manage the ChayaChando news platform. It provides administrators with powerful tools to manage news articles, categories, users, and platform content through a clean, responsive, and user-friendly interface.
 
 ## 🌐 Live Demo
 
-- **Backend API:** https://bd-news-backend.vercel.app/
 - **Admin Panel:** https://chayachando-admin.netlify.app/
 - **Website:** https://chayachando.netlify.app/
+- **Backend API:** https://bd-news-backend.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- 🔐 Secure authentication and authorization
-- 👤 User and Admin roles
-- 📰 Create, update, and delete news articles
-- 📂 Category-based news management
-- 🔍 Search and filter news
-- 📱 Fully responsive design
-- ⚡ Fast and optimized user experience
-- 🖼️ Image gallery and lightbox support
-- 🎞️ Animations and interactive UI
-- 📄 Pagination for news articles
-- 🌍 SEO-friendly structure
+- 🔐 Secure JWT Authentication
+- 👨‍💼 Admin Dashboard
+- 📰 Manage News Articles
+- 📂 Category Management
+- ✏️ Create, Edit & Delete Content
+- 📱 Fully Responsive Interface
+- ⚡ Fast and Optimized Performance
+- 💾 Persistent Authentication using Redux Persist
 
 ---
 
@@ -30,19 +27,18 @@ ChayaChando is a modern news, media, and journalism platform designed to deliver
 
 ### Frontend
 
-- React 18
+- React 19
 - TypeScript
-- React Router DOM
-- Tailwind CSS
-- React Icons
-- Animate.css
-- WOW.js
-- Tiny Slider
-- Owl Carousel
-- React CountUp
-- React Fast Marquee
-- React Modal Video
-- React Image Lightbox
+- Vite
+- Redux Toolkit
+- React Redux
+- React Router v7
+- React Hook Form
+- Ant Design
+- Axios
+- JWT Decode
+- Sonner
+- Redux Persist
 
 ### Backend
 
@@ -59,13 +55,13 @@ ChayaChando is a modern news, media, and journalism platform designed to deliver
 ### Clone the repository
 
 ```bash
-git clone https://github.com/hzamanshohag/chayachando.git
+git clone https://github.com/hzamanshohag/chayachando-admin.git
 ```
 
 Move into the project directory
 
 ```bash
-cd chayachando
+cd chayachando-admin
 ```
 
 Install dependencies
@@ -77,7 +73,7 @@ npm install
 Start the development server
 
 ```bash
-npm start
+npm run dev
 ```
 
 Build for production
@@ -86,68 +82,65 @@ Build for production
 npm run build
 ```
 
----
+Preview the production build
 
-## 📂 Project Structure
-
+```bash
+npm run preview
 ```
-src/
-│── assets/
-│── components/
-│── hooks/
-│── layouts/
-│── pages/
-│── routes/
-│── services/
-│── styles/
-│── utils/
-│── App.tsx
-└── index.tsx
-```
-
----
 
 ## 📜 Available Scripts
 
+### Start Development Server
+
 ```bash
-npm start
+npm run dev
 ```
 
-Runs the application in development mode.
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-Builds the application for production.
+### Preview Production Build
 
 ```bash
-npm test
+npm run preview
 ```
 
-Runs the test suite.
+### Lint Project
+
+```bash
+npm run lint
+```
+
+---
+
+## 🔐 Authentication & Authorization
+
+The Admin Panel uses **JWT-based authentication** with **Role-Based Access Control (RBAC)** to ensure only authorized administrators can access protected resources and manage platform data securely.
 
 ---
 
 ## 📱 Responsive Design
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile
+- 💻 Desktop
+- 💼 Laptop
+- 📱 Tablet
+- 📲 Mobile
 
 ---
 
 ## 🚀 Future Improvements
 
-- Social login
-- Bookmark articles
-- User profiles
-- Comments and reactions
-- Dark mode
-- Push notifications
-- Reading history
-- Newsletter subscription
+- Dashboard Analytics & Charts
+- Rich Text Editor
+- Media Library
+- Activity Logs
+- Notification Center
+- Dark Mode
+- Multi-language Support
+- Role & Permission Management
 
 ---
 
@@ -157,10 +150,10 @@ Runs the test suite.
 
 - GitHub: https://github.com/hzamanshohag
 - Portfolio: https://hzaman.vercel.app/
-- LinkedIn: https://www.linkedin.com/in/md-hasanuzzaman-shohag/
+- LinkedIn: https://www.linkedin.com/in/hzaman-shohag/
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
