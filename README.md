@@ -34,11 +34,9 @@ The **ChayaChando Admin Panel** is a modern dashboard built to efficiently manag
 - React Redux
 - React Router v7
 - React Hook Form
-- Ant Design
 - Axios
 - JWT Decode
 - Sonner
-- Redux Persist
 
 ### Backend
 
@@ -55,13 +53,13 @@ The **ChayaChando Admin Panel** is a modern dashboard built to efficiently manag
 ### Clone the repository
 
 ```bash
-git clone https://github.com/hzamanshohag/chayachando-admin.git
+git clone https://github.com/hzamanshohag/chayachando-admin-dashboard.git
 ```
 
 Move into the project directory
 
 ```bash
-cd chayachando-admin
+cd chayachando-admin-dashboard
 ```
 
 Install dependencies
